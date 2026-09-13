@@ -6,4 +6,9 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-n = int(input())
+num = int(input())
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
